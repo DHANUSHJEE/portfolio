@@ -1,0 +1,42 @@
+        .navbar {
+          background-color: #343a40;
+        }
+
+        .navbar-brand {
+          color: #ffffff;
+          font-weight: bold;
+        }
+
+        .navbar-brand:hover {
+          color: #d4d4d4;
+        }
+
+        .nav-link {
+          color: #ffffff;
+        }
+
+        .nav-link:hover {
+          color: #d4d4d4;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 991.98px) {
+          .navbar-nav {
+            text-align: center;
+          }
+
+          .nav-item {
+            margin: 0.5rem 0;
+          }
+        }
+
+        /* For extra small devices (phones, less than 576px) */
+        @media (max-width: 575.98px) {
+          .navbar-brand {
+            font-size: 1.25rem;
+          }
+
+          .nav-link {
+            font-size: 1rem;
+          }
+        }
